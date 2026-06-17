@@ -136,4 +136,6 @@ contact:
   github: https://github.com/krishnv
   linkedin: https://linkedin.com/in/krishnavatsa
   email: Krishna.vats02@gmail.com
+  formspreeId: # Sign up at formspree.io → New Form → paste the ID here (e.g. xpwzgkla)
+  cvFile: /resume.pdf  # Place your CV as public/resume.pdf to enable download
 ---
