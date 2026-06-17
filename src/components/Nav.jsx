@@ -11,15 +11,15 @@ const sections = [
 
 export default function Nav({ name }) {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur border-b border-gray-200">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur border-b border-sage-200">
       <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
-        <span className="font-semibold text-sm tracking-tight text-gray-900">{name}</span>
+        <span className="font-semibold text-sm tracking-tight text-sage-700">{name}</span>
         <ul className="hidden md:flex items-center gap-6">
           {sections.map((s) => (
             <li key={s.id}>
               <a
                 href={`#${s.id}`}
-                className="text-xs font-medium text-gray-600 hover:text-gray-900 transition-colors"
+                className="text-xs font-medium text-gray-600 hover:text-sage-700 transition-colors"
               >
                 {s.label}
               </a>

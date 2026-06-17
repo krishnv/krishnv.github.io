@@ -1,10 +1,25 @@
 @import "tailwindcss";
 
+@theme {
+  --color-sage-50:  #f3f7f3;
+  --color-sage-100: #e4ede5;
+  --color-sage-200: #c8dbc9;
+  --color-sage-300: #a2c2a4;
+  --color-sage-400: #77a37a;
+  --color-sage-500: #5a8a5e;
+  --color-sage-600: #476e4b;
+  --color-sage-700: #3a5a3d;
+  --color-sage-800: #304a33;
+  --color-sage-900: #293d2b;
+  --color-sage-950: #162019;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
   }
   body {
     font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+    background-color: #fafafa;
   }
 }
